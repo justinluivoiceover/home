@@ -1,3 +1,11 @@
+:root {
+	--baby-pink: #e0b9b0ff;
+	--tuscany: #cda397ff;
+	--black-coffee: #2a201cff;
+	--raisin-black: #2d2b2eff;
+	--dark-lava: #4f3e34ff;
+}
+
 @font-face {
 	font-family: "Actor";
 	src: url("../fonts/Actor-Regular.ttf");
@@ -5,10 +13,12 @@
 
 body {
 	font-family: "Actor", Arial, sans-serif;
+	background: var(--baby-pink);
+	color: var(--raisin-black);
 }
 
 header {
-	background: url('../images/00B2407_banner.jpg') #737270 no-repeat;
+	background: url('../images/00B2407_banner.jpg') var(--dark-lava) no-repeat;
 	height: 200px;
 	display: flex;
 	flex-direction: column;
